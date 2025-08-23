@@ -1,0 +1,39 @@
+@import url('./header.css');
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+body {
+  background: 
+    linear-gradient(90deg, rgba(0, 0, 0, 0.91) 0%, rgba(42, 0, 0, 0.91) 100%),
+    url('/images/grunge_texture_bg.jpg');
+  background-size: cover;
+  background-size: 6000px auto, cover;
+  background-blend-mode: soustract;
+
+  font-family: 'Bodoni Moda SC', serif;
+}
+
+
+main { 
+  position: absolute;
+  width: 100vw;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+
+}
+
+
+
+
+#container3D {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  pointer-events: none;
+}
