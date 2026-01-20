@@ -9,22 +9,3 @@
     gap: 2rem;
     z-index: 100;
 }
-
-.btn-white {
-    background: white;
-    color: black;
-    padding: 1rem 2rem;
-    text-decoration: none;
-    font-family: 'GroutpixFlowSlabSerif', serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    border-radius: 4px;
-    transition: all 0.3s ease;
-    border: 1px solid white;
-}
-
-.btn-white:hover {
-    background: transparent;
-    color: white;
-    transform: translateY(-2px);
-}

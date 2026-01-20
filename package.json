@@ -10,11 +10,17 @@
     "update-music": "node scripts/fetch-tracks.js"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
     "soundcloud.ts": "^0.7.1",
     "vite": "^7.1.2"
   },
   "dependencies": {
+    "@react-three/fiber": "^9.5.0",
+    "@react-three/postprocessing": "^3.0.4",
     "node": "^25.3.0",
+    "postprocessing": "^6.38.2",
     "three": "^0.179.1"
   }
 }

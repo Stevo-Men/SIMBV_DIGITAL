@@ -2,6 +2,7 @@
 @import url('./music.css');
 @import url('./nav.css');
 @import url('./fonts.css');
+@import url('./tsiepeButoon.css');
 
 canvas {
   position: fixed;
