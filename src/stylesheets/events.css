@@ -1,0 +1,155 @@
+/* Events Section */
+#events-page {
+    grid-column: 2 / span 10;
+    margin-top: 100px;
+    padding: 2rem 0;
+    z-index: 10;
+    position: relative;
+}
+
+.events-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.event-card {
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    backdrop-filter: blur(5px);
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.event-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.event-date-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-align: center;
+    min-width: 80px;
+}
+
+.event-month {
+    display: block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #ccc;
+}
+
+.event-day {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.event-info {
+    flex: 1;
+    padding: 0 1.5rem;
+}
+
+.event-title {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.event-details {
+    color: #ccc;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.event-details span {
+    margin-right: 1rem;
+}
+
+.event-details i {
+    margin-right: 0.5rem;
+    color: #888;
+}
+
+.event-lineup {
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #aaa;
+}
+
+.event-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 120px;
+}
+
+.ticket-btn {
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+.ticket-btn:hover {
+    background: #ddd;
+}
+
+.sold-out {
+    background: transparent;
+    color: #ff4444;
+    border: 1px solid #ff4444;
+    cursor: default;
+}
+
+.sold-out:hover {
+    background: transparent;
+}
+
+@media (max-width: 768px) {
+    .event-card {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .event-header {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .event-info {
+        padding: 0;
+    }
+
+    .event-action {
+        width: 100%;
+    }
+
+    .ticket-btn {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

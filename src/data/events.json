@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Bas Valentine",
+        "date": "2026-01-22",
+        "time": "20:00",
+        "location": "NewSpeak",
+        "promoter": "SIMBV!",
+        "address": "",
+        "city": "Montreal",
+        "ticketLink": "https://www.ticketmaster.com/",
+        "soldOut": false,
+        "lineup_members": [
+            "Bas Valentine",
+            ""
+        ]
+    },
+    {
+        "title": "USAYBFLOW",
+        "date": "2025-08-14",
+        "time": "21:00",
+        "location": "",
+        "promoter": "SIMBV!",
+        "address": "1179 avenue Cartier, Quebec",
+        "city": "Quebec",
+        "ticketLink": "https://www.ticketmaster.com/",
+        "soldOut": true,
+        "lineup_members": [
+            "USAYBFLOW",
+            "SIMBV!",
+            "NASTY",
+            "SYD"
+        ]
+    }
+]
