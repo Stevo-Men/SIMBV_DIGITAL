@@ -264,8 +264,8 @@ function DitheredWaves({
 
 export default function Dither({
   waveSpeed = 0.05,
-  waveFrequency = 3,
-  waveAmplitude = 0.3,
+  waveFrequency = 2.5,
+  waveAmplitude = 0.25,
   waveColor = [0.5, 0.5, 0.5],
   colorNum = 4,
   pixelSize = 2,
