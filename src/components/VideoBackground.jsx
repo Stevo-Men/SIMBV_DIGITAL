@@ -18,7 +18,7 @@ const VideoBackground = () => {
                 pointerEvents: 'none'
             }}
         >
-            <source src="/animatesd/GT4/V8.mov" type="video/mp4" />
+            <source src="/animated/GT4/V8.mov" type="video/mp4" />
             Your browser does not support the video tag.
         </video>
     );
